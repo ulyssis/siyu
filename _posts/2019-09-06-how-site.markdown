@@ -1,0 +1,42 @@
+---
+layout: post
+title:  how i made this site
+date:   2019-09-06
+description: a possibly helpful narrative that i'd hesitate to call a guide
+---
+
+My old website was actually hosted on the blogger platform, and over the five years it was up I got pretty tired of my dated headshot and the clunky tools. I decided it was time to move to github hosting and then took a rather twisty, rambling path that ended here. I've decided to put together a short guide in case you'd like to make your own site with less confusion than I did. 
+
+TL;DR: I used ruby, blender, jekyll, a pre-made theme, github, and discovered I'm the only one left who still uses a c shell. 
+
+I've only worked on pages using html before, but I knew I wanted something a little fancier for my site. I was browsing themes that should interface with github and I ended up on a [jekyll themes page](https://jekyll-themes.com/free/) where I fell pretty hard for [al-folio](https://jekyll-themes.com/al-folio/), a template specifically designed for academics complete with project pages and a publications page automatically constructed from a bib file. I was sold. 
+
+#### But what's [jekyll](https://jekyllrb.com/)?
+
+From what I understand, it's a tool that takes a set of input style files and pages with content in markdown and translates them to a website. Specifically, it's meant for static websites rather than dynamic ones (I didn't realize that was a thing, but apparently I'm not a web designer), and it's integrated pretty well into github.
+
+I started by installing a bunch of things, but I should have started by [forking the template](https://help.github.com/en/articles/fork-a-repo) to create a branch on my own github repository, renaming it to sjschmidt.github.io (or, in your case, username.github.io , and then [cloning it](https://help.github.com/en/articles/cloning-a-repository) to a local directory. 
+
+#### Installing software in circles
+
+Many places on the internet reccomended that I manage jekyll through a combination of [ruby](https://www.ruby-lang.org/en/) and [bundler](https://bundler.io/), two things that I had barely heard of before. Ruby is a high level programming language that is often used in web development (I think). Bundler helps to manage Ruby packages (known as gems). I relied on [this guide](https://www.taniarascia.com/make-a-static-website-with-jekyll/) for a lot of my basics, but I had to deviate from it in some rather strong ways. 
+
+Running a mac for astro, I already had [Xcode](https://developer.apple.com/xcode/) and its command line tools installed, so that's first on the list. 
+
+Next is ruby. Most macs come with Ruby pre-installed (and mine had a relatively updated version) but I chased my own tail with the next few steps for a while because it was both not updated enough and giving me weird permission issues (I kept on being all like "I am ROOT!!!" and it wasn't listening).
+
+So make like [this tutortial](https://www.engineyard.com/blog/how-to-install-ruby-on-a-mac-with-chruby-rbenv-or-rvm) and use your version of ruby to install [brew](https://brew.sh/) to install ruby. And, if, like me, you're running a c-shell because that's how your computer was set up a decade ago and you set up your new ones the same way, just type bash to switch over and run the install commands. 
+
+#### Back to the website
+
+Remember that? So at that point I went back to the directions on the jekyll tutorial or the jekyll theme instructions and run the bundle install command, followed by bundle exec jekyll serve. That creates a copy of your website at [localhost:4000](http://localhost:4000) that you can reload and check out while you tweak settings and put together content. 
+
+As an aside, I spend a while banging my head against the wall with a [bug like this one](https://github.com/csswizardry/inuit.css/issues/270#issuecomment-56056606), where it wouldn't compile because of an invalid ASCII character, and I thought the solution wouldn't work for me because of a bash vs. c shell issue. I eventually translated those commands and got going. 
+
+So after taking the time to git add and git commit all of your lovely changes, time to deploy. My template came with a handy script that replaced the other deployment (it does a fancy little extra branch so it only pushes the final website to github) but from there it was smooth sailing... except for all those changes I forgot to commit that one time. Just that one time.
+
+
+
+
+
+
