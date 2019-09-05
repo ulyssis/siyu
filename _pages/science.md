@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: science
+permalink: /science/
+description: I work on a variety of projects related to metallicities and magnetism on the smallest stars and warmest brown dwarfs. Click below for details.
 ---
 
 {% for project in site.projects %}
