@@ -12,7 +12,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 4 Sept 2019 # leave blank if you don't want to display last updated
+last_updated: 5 Sept 2019 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -26,7 +26,7 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Get in touch! It's fastest to find me on twitter or send me an email. 
 
 google_analytics: UA-XXXXXXXXX # put your google-analytics code
 
@@ -66,6 +66,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  iprojects:
+    output: true
+    permalink: /iprojects/:path/
 
 news_limit: 5
 
