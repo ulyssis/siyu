@@ -4,15 +4,14 @@
 name: Sarah Jane Schmidt
 email: sjschmidt@aip.de
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Professional site of Sarah Jane Schmidt.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 5 Sept 2019 # leave blank if you don't want to display last updated
+last_updated: 6 Sept 2019 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
