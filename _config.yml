@@ -34,7 +34,7 @@ google_analytics: UA-XXXXXXXXX # put your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: blog
-blog_description: perhaps coming soon
+blog_description: perhaps updated occassionally
 
 # Pagination
 paginate: 4
