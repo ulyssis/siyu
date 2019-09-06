@@ -18,7 +18,7 @@ news: true
 social: true
 ---
 
-This site is under construction, so content will be missing and some things will be from the original template. My out of date but complete site is still available at [www.sarahjaneschmidt.com](http://www.sarahjaneschmidt.com).
+This site is under construction, which mostly means the project descriptions are stubs, the below text needs editing, and I am still hoping to make the mobile version smoother. My out of date but complete site is [still available](http://www.sarahjaneschmidt.com).
 
 I'm an observational astronomer working on the smallest stars and the warmest brown dwarfs. I want to understand their magnetic fields - both how they are traced through atmospheric indicators like emission lines and flares, and how they are linked to properties like surface temperature, age, and rotation. I also think of these ultracool dwarfs in the context of our Galaxy, and work to measure their chemical abundances and examine thier velocities to trace Galactic structure.
 
