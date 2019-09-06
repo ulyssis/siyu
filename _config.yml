@@ -42,7 +42,7 @@ google_analytics: UA-XXXXXXXXX # put your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: blog
-blog_description: perhaps coming soon
+blog_description: perhaps updated occassionally
 
 blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
