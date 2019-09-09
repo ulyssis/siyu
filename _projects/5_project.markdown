@@ -1,8 +1,12 @@
 ---
 layout: page
-title: Flares in detail
+title: flares in detail
 description: spectroscopic characterization
 img: /assets/img/Nasa_EV_Lacertae_250408.jpg
 ---
 
-spectroscopic monitoring, including my IR work from PhD and adam's cool newer stuff
+Many photometric surveys are picking up increasing numbers of flares accross the main sequence. To undertstand the detailed conditions of the flares - including the heating mechanisms, cooling mechanisms, and the densities and temperatures of the flaring plasma, spectroscopic monitoring and modeling are needed. 
+
+#### Related Publications
+
+{% bibliography -f papers --query @*[group=flareprop] %}
