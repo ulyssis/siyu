@@ -12,3 +12,9 @@ TESS Ultracool dwarfs
 K2 flares in clusters
 
 K2 flares from ultracool dwarfs
+
+#### Collaborators
+
+Ekaterina Ilin, Jim Davenport, John Gizis, Rishi Paudel, Elisabeth Newton, Sebastian Pineda, Peter Williams, 
+
+#### Related Publications
