@@ -8,7 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>sjschmidt AT aip.de</p>
     <p>An der Sternwarte 16</p>
     <p>14482 Potsdam, Germany</p>
     <p>office: HH 026</p>

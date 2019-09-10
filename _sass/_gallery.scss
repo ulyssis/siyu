@@ -19,7 +19,7 @@ figcaption {
 .col {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     box-sizing:border-box;
     /*padding: $img-spacing;*/
 }
@@ -31,6 +31,9 @@ figcaption {
 }
 .three {
     width: 100%;
+}
+.half {
+    width: 50%;
 }
 .caption {
     height: 100%;
