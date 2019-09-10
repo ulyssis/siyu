@@ -24,6 +24,6 @@ I'm an observational astronomer studying the smallest stars and warmest brown dw
 
 My main focus is on the magnetic fields of very small stars. Despite having cool and mostly neutral (not charged) surfaces, these stars can still heat their upper atmospheres. This heating results in energetic emission lines and occasional large explosions known as flares. Why do small stars have such strong magnetic fields? How do those fields and their interactions with the surface change as they age? 
 
-I also work at the interface between stellar astronomy and Galactic astronomy. I'm interested in using the positions and velocities of stars compared to surrounding stars as an indicator of age. I'm also working on determining photometric indicators of metallicities for small stars. With accurate metallicites, millions of these stars can be used to uncovery the chemical evolution of our Galaxy.
+I also work at the interface between stellar and Galactic astronomy. I'm interested in using the positions and velocities of stars compared to surrounding stars as an indicator of age. I'm also working on determining photometric indicators of metallicities for small stars. With accurate metallicites, millions of these stars can be used to uncovery the chemical evolution of our Galaxy.
 
-This site is under construction, which mostly means the science + inclusion project descriptions are stubs and I am still hoping to make the mobile version smoother.  My out of date but complete site is [still available](http://www.sarahjaneschmidt.com).
+This site is under construction, so the science project descriptions are stubs and I am still hoping to make the mobile version smoother.  My out of date but complete site is [still available](http://www.sarahjaneschmidt.com).
