@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Indigenous rights and telescopes
+title: indigenous rights and telescopes
 description: reading guide
 img: 
 redirect: https://indigenousrightsandtelescopes.github.io/
