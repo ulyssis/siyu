@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gender questions
+title: gender questions
 description: who asks questions at conferences?
 img: /assets/img/frac_v_N.png
 ---
