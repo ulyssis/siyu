@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Femso
-description: Feminist solidarity in Berlin
+title: femso
+description: feminist solidarity in Berlin
 img:
 ---
 
