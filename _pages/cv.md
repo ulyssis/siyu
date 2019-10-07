@@ -7,7 +7,7 @@ description: available in <a href="https://github.com/sjschmidt/CV/blob/master/s
 
 #### Employment
 [Leibniz Institute for Astrophysics - Potsdam](https://www.aip.de)  
-Schwarzschild Postdoctoral Fellow (2015-present)  
+Schwarzschild Prize Postdoctoral Fellow (2015-present)  
 
 [The Ohio State University](https://astronomy.osu.edu/)  
 Columbus Prize Postdoctoral Fellow (2012-2015)  

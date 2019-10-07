@@ -2,7 +2,7 @@
 layout: page
 title: science
 permalink: /science/
-description: I work on a variety of projects related to metallicities and magnetism on the smallest stars and warmest brown dwarfs. Click below for details.
+description: I'm interested in most things related to the smallest stars and warmest brown dwarfs. The majority of my projects are related to magnetic activity, but I'm also fascinated by metallicites, ages, and kinematics. Some of my larger projects are summarized here. 
 ---
 
 {% for project in site.projects %}
