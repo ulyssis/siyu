@@ -2,7 +2,7 @@
 layout: page
 title: inclusion
 permalink: /inclusion/
-description: I am committed diversity, equity, and inclusion in astronomy and the world around me. Here are some of my past and current projects.
+description: I am committed diversity, equity, and inclusion in astronomy and the world around me. Some of my related projects, both current and past, are summarized here. 
 ---
 
 {% for project in site.iprojects %}
