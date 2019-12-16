@@ -7,13 +7,13 @@ img: /assets/img/tess.jpg
 
 The [NASA Kepler](https://www.nasa.gov/mission_pages/kepler/main/index.html) mission, and its successor, [TESS](https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite), aim to find exoplanets that pass in front of their host stars by detecting the decrease in starlight when a small part of the star is blocked by the exoplanet. In the process, they obtain time series data that can reveal stellar flares - sudden outbursts of energy that occur when the surface magnetic field reconnects. 
 
-My collaborators and I look for flares in this time series data, then characterize their energies and overall frequency. We expect the flare frequency to be related to the overall strength of the star's magnetic field - which itself depends on the star's rotation, mass, and age. 
+My collaborators and I look for flares in this time series data, then characterize their energies and overall frequency. We expect the flare frequency to be related to the overall strength of the star's magnetic field - which itself depends on the star's rotation, mass, and age. There are three main projects that I'll introduce here.
 
 #### flares and age using K2 clusters
 
-As stars age, they typically slow their rotation, which weakens the stellar magnetic field. We expect that the frequency of flares should also decrease with age, and if we can measure the relationshop between a star's flare rate and its age, flares can be a useful age indicator. First, we must examine flares on stars with well-determined ages. 
+As stars age, they typically slow their rotation, which weakens the stellar magnetic field. We expect that the frequency of flares should also decrease with age, and if we can measure the relationship between a star's flare rate and its age, flares can be a useful age indicator. First, we must examine flares on stars with well-determined ages. 
 
-A star cluster is a graviationally bound group of stars that were typically formed from the same material at the same time. Within most clusters, the all stars have the same age and chemical composition, so we can determine the cluster age from stars that have more obvious age indicators. [Ekaterina Ilin](https://ekaterinailin.github.io/) is leading a project to examine the flare rate on different types of stars in clusters with K2 data and well-measured ages. 
+A star cluster is a graviationally bound group of stars that were typically formed from the same material at the same time. Within most clusters, all the stars have the same age and chemical composition, so we can determine the cluster age from stars that have more obvious age indicators. [Ekaterina Ilin](https://ekaterinailin.github.io/) is leading a project to examine the flare rate on different types of stars in clusters with K2 data and well-measured ages. 
 
 <div class="img_row">
     <img class="col half left" src="{{ site.baseurl }}/assets/img/FFDtwo.png" alt="" title="normalized emission lines during a large flare"/>
