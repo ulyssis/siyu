@@ -1,11 +1,12 @@
 ---
 layout: page
-title: inclusion
-permalink: /inclusion/
-description: I am committed diversity, equity, and inclusion in astronomy and the world around me. Some of my related projects, both current and past, are summarized here. 
+title: projects
+permalink: /projects/
+description: As an astronomer, I worked on projects that focused on small stars and their magnetic fields as well as projects related to inclusion STEM fields. The squares below are links to summaries of my major projects.
+
 ---
 
-{% for project in site.iprojects %}
+{% for project in site.projects %}
 
 {% if project.redirect %}
 <div class="project">

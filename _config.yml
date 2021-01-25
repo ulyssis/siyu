@@ -11,7 +11,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 20 August 2020 # leave blank if you don't want to display last updated
+last_updated: January 2021 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -40,20 +40,26 @@ google_analytics: UA-147426691-1 # put your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: blog
-blog_description: perhaps updated occassionally
-
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+ blog_name: blog
+ blog_description: perhaps updated occassionally
 
 # Pagination
-pagination:
-  enabled: true
+ paginate: 4
+ permalink: /blog/:year/:title/
+ paginate_path: /blog/page:num/
+
+# text:
+   pagination:
+     newer: 'Newer'
+     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+ disqus_shortname: al-folio # put your disqus shortname
+
+# Optional features
+ show_social_icons:  false
+ enable_anchorjs:    false
+ enable_katex:       true
 
 # -----------------------------------------------------------------------------
 # Collections
