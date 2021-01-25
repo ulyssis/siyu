@@ -1,8 +1,9 @@
 ---
 layout: page
-title: science
-permalink: /science/
-description: I'm interested in most things related to the smallest stars and warmest brown dwarfs. The majority of my projects are related to magnetic activity, but I'm also fascinated by metallicites, ages, and kinematics. Some of my larger projects are summarized here. 
+title: projects
+permalink: /projects/
+description: As an astronomer, I worked on projects that focused on small stars and their magnetic fields as well as projects related to inclusion STEM fields. The squares below are links to summaries of my major projects.
+
 ---
 
 {% for project in site.projects %}

@@ -13,9 +13,11 @@ news: false
 social: true
 ---
 
-I am wrapping up a fifteen-year career as a research astronomer and working to find my first role outside academia as a data scientist. I am eager to figure out how everything works, and approach each new puzzle from a data-driven perspective. 
+I spent 15 years in academia researching the smallest stars and why their magnetic fields are so strong. My work was data-focused, and I extracted, analyzed, and visualized multi-dimensional and time-series data to answer my research questions. I also worked towards inclusion in astronomy. 
 
-Like me, this site is in the middle of a move between worlds. Here, you'll find summaries and publications of my work as an academic. Science-wise, my projects used variety of different data sources to understand and classify stars based on tracers of their composition and magnetic fields. I also was active in multiple efforts focused on diversity and inclusion in STEM fields. 
+Now, I'm ready to take my data-focused skills and apply them to new challenges. To learn more about me, please take a look at my CV, publications, or the project summaries for some of my main projects.  
+
+I also like ice cream.  
 
 
 
