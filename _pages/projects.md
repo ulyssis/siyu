@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: As an astronomer, I worked on projects that focused on small stars and their magnetic fields as well as projects related to inclusion STEM fields. The squares below are links to summaries of my major projects.
+description: As an astronomer, I worked on projects that focused on small stars and their magnetic fields as well as projects related to inclusion in STEM fields. The squares below are links to summaries of my major projects.
 
 ---
 
