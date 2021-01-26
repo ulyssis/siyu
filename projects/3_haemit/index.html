@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Sarah Jane Schmidt | H&alpha; emission lines</title>
+  <meta name="description" content="Professional site of Sarah Jane Schmidt.
+">
+
+  <link rel="icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/3_haemit/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Sarah Jane Schmidt</strong>
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Blog -->
+<!--        <a class="page-link" href="/blog/">blog</a> -->
+
+        <!-- Pages -->
+        
+          
+        
+          
+            <a class="page-link" href="/cv/">cv</a>
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">projects</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">H&alpha; emission lines</h1>
+    <h5 class="post-description">tracing quiescent chromospheres</h5>
+  </header>
+
+  <article class="post-content H&alpha; emission lines clearfix">
+    <p>The Hα emission line is generated in a magnetically heated upper layer of a star’s atmosphere called its chromosphere. The presence of Hα indicates that there is a magnetic field at the surface of the star, and it is often used as a magnetic activity indicator because it is the most easily observed tracer of magnetism in the coolest stars and warmest brown dwarfs.</p>
+
+<h3 id="emission-lines-in-the-coolest-stars">emission lines in the coolest stars</h3>
+
+<p>One of my projects is to examine the presence of Hα in a large sample of M and L dwarfs observed as part of the Sloan Digital Sky Survey <a href="https://www.sdss.org/">(SDSS)</a>. The emission line traces an unexpected trend - throughout the sequence of M dwarfs, the fraction of stars that have Hα increases until it peaks close to the coolest stars (early-L dwarfs). This indicates that  hot chromospheric emission is more common on cooler stars than on warmer stars.</p>
+
+<p>This effect is due primarily to the relationship between magnetic activity and age. Young stars have strong magnetic fields, but as they age, the rotation that feeds their magnetic field gradually slows, resulting in weaker magnetic fields for older stars. Warmer stars are efficient at dissipating their magnetic field, so fewer of them are active. The coolest stars remain active for many billions of years, sometimes as long as the current age of the universe.</p>
+
+<div class="img_row">
+    <img class="col three left" src="/assets/img/frac_binomial_errs.png" alt="" title="fraction of emission as a function of spectral type" />
+</div>
+<div class="col three caption" style="float: right">
+The fraction of dwarfs that have H&alpha; emission as a function of spectral type (a tracer of the surface temperature). The fraction of magnetically active dwarfs increases throughout the M spectral sequence, then declines through the L spectral sequence. From <a href="https://ui.adsabs.harvard.edu/abs/2018AJ....155....6M">Schmidt et al. 2015</a>.
+</div>
+
+<p>The fraction of active stars declines for stars cooler than spectral type L0, likely because the atmospheres are cool enough that it is not possible to generate Hα emission. It’s also possible that the magnetic fields of warm brown dwarfs are configured differently than those of smalls stars. The exact reason is still an open question in the magnetism of stars and brown dwarfs.</p>
+
+<h3 id="hα-line-generation">Hα line generation</h3>
+
+<p>As part of my dissertation, I examined the formation of the H&amp;\alpha; emission line in cool star chromospheres using the <a href="https://ui.adsabs.harvard.edu/abs/2001ApJ...557..389U/abstract">RH</a> radiative transfer code <a href="https://rh15d.readthedocs.io/en/latest/">(current version available here)</a>. I found that the Hα emission line could be produced on objects with very cool (1700 K) photospheres as long as some chromospheric material was heated to 8000K, and that the weak emission lines observed in the coolest stars were consistent with either less dense emission regions or smaller surface coverage on stars.</p>
+
+<div class="img_row">
+    <img class="col half left" src="/assets/img/chr1.jpg" alt="" title="atmospheric temperature structure diagram" />
+    <img class="col half left" src="/assets/img/chr5.jpg" alt="" title="annotated atmospheric temperature structure diagram" />
+</div>
+<div class="col three caption" style="float: right">
+Cartoon representations of the stellar atmosphere, shown in Temperature as a function of atmospheric height, with the density gradient also indicated. The left is a simplified version, showing only the temperature structure of a quiet and active region. On the right, the layers of the atmosphere (photosphere, chromosphere, transition region, and corona) are labeled as well as the region where H&alpha; emission and other atomic lines are formed. In the left margin, I've included a toy diagram of what the surface of active stars to look may like. 
+</div>
+
+<h3 id="variability-in-hα-emission">variability in Hα emission</h3>
+
+<p>Hα emission is intrinsically variable on multiple timescales. The amount of emission we see changes as stars rotate on timescales of hours to days. The magnetic field also changes its configuration as magnetic regions form and dissipate, usually on timescales of months. The overall strength of the magnetic field may have fluctuations over years to decades, analogs of the 11 year Solar cycle.</p>
+
+<p>Additional spectroscopic monitoring is the key to assigning stars a more fundamental base activity level, and to characterizing the stellar dynamo. I’m currently involved in a project with the Time Domain Spectroscopic Survey of SDSS to measure spectroscopic variability of ultracool dwarfs over year timescales, and have plans to propose further monitoring of activity in the smallest stars and warmest brown dwarfs.</p>
+
+<h4 id="related-publications">Related Publications</h4>
+
+<ol class="bibliography"><li>
+
+<div id="2019AJ....157..231K">
+  
+    <span class="title">Exploring the Age-dependent Properties of M and L Dwarfs Using Gaia and SDSS</span>
+    <span class="author">
+      
+        
+          
+            
+              
+                Kiman, Rocio,
+              
+            
+          
+        
+      
+        
+          
+            
+              <em>Schmidt, Sarah J.</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Angus, Ruth,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Cruz, Kelle L.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Faherty, Jacqueline K.,
+              
+            
+          
+        
+      
+        
+          
+		
+		and
+		
+            
+              
+                Rice, Emily
+		
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>AJ</em>
+    
+    
+      2019
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a href="https://ui.adsabs.harvard.edu/abs/2019AJ....157..231K" target="_blank">ADS</a>]
+  
+  
+    [<a href="http://arxiv.org/abs/1904.05911" target="_blank">arXiv</a>]
+  
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>We present a sample of 74,216 M and L dwarfs constructed from two existing catalogs of cool dwarfs spectroscopically identified in the Sloan Digital Sky Survey (SDSS). We cross-matched the SDSS catalog with Gaia DR2 to obtain parallaxes and proper motions and modified the quality cuts suggested by the Gaia Collaboration to make them suitable for late-M and L dwarfs. We also provide relations between Gaia colors and absolute magnitudes with spectral type and conclude that (G − G<sub>RP</sub>) has the tightest relation to spectral type for M and L dwarfs. In addition, we study magnetic activity as a function of position on the color─magnitude diagram, finding that Hα magnetically active stars have, on average, redder colors and/or brighter magnitudes than inactive stars. This effect cannot be explained by youth alone and might indicate that active stars are magnetically inflated, binaries, and/or high metallicity. Moreover, we find that vertical velocity and vertical action dispersion are correlated with Hα emission, confirming that these two parameters are age indicators. We also find that stars below the main sequence have high tangential velocity, which is consistent with a low metallicity and old population of stars that belong to the halo or thick disk. </p>
+  </span>
+  
+</div>
+</li>
+<li>
+
+<div id="2018AJ....155....6M">
+  
+    <span class="title">The Time-domain Spectroscopic Survey: Target Selection for Repeat Spectroscopy</span>
+    <span class="author">
+      
+        
+          
+            
+              
+                MacLeod, Chelsea L.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Green, Paul J.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Anderson, Scott F.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Eracleous, Michael,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Ruan, John J.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Runnoe, Jessie,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Brand t, William Nielsen,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Badenes, Carles,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Greene, Jenny,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Morganson, Eric,
+              
+            
+          
+        
+      
+        
+          
+            
+              <em>Schmidt, Sarah J.</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Schwope, Axel,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Shen, Yue,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Amaro, Rachael,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Lebleu, Amy,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Filiz Ak, Nurten,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Grier, Catherine J.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Hoover, Daniel,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                McGraw, Sean M.,
+              
+            
+          
+        
+      
+        
+          
+		
+            
+              
+                Dawson, Kyle
+		
+		et al.
+		
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>AJ</em>
+    
+    
+      2018
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a href="https://ui.adsabs.harvard.edu/abs/2018AJ....155....6M" target="_blank">ADS</a>]
+  
+  
+    [<a href="http://arxiv.org/abs/1706.04240" target="_blank">arXiv</a>]
+  
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>As astronomers increasingly exploit the information available in the time domain, spectroscopic variability in particular opens broad new channels of investigation. Here we describe the selection algorithms for all targets intended for repeat spectroscopy in the Time Domain Spectroscopic Survey (TDSS), part of the extended Baryon Oscillation Spectroscopic Survey within the Sloan Digital Sky Survey (SDSS)-IV. Also discussed are the scientific rationale and technical constraints leading to these target selections. The TDSS includes a large “repeat quasar spectroscopy” (RQS) program delivering ̃13,000 repeat spectra of confirmed SDSS quasars, and several smaller “few-epoch spectroscopy” (FES) programs targeting specific classes of quasars as well as stars. The RQS program aims to provide a large and diverse quasar data set for studying variations in quasar spectra on timescales of years, a comparison sample for the FES quasar programs, and an opportunity for discovering rare, serendipitous events. The FES programs cover a wide variety of phenomena in both quasars and stars. Quasar FES programs target broad absorption line quasars, high signal-to-noise ratio normal broad line quasars, quasars with double-peaked or very asymmetric broad emission line profiles, binary supermassive black hole candidates, and the most photometrically variable quasars. Strongly variable stars are also targeted for repeat spectroscopy, encompassing many types of eclipsing binary systems, and classical pulsators like RR Lyrae. Other stellar FES programs allow spectroscopic variability studies of active ultracool dwarf stars, dwarf carbon stars, and white dwarf/M dwarf spectroscopic binaries. We present example TDSS spectra and describe anticipated sample sizes and results. </p>
+  </span>
+  
+</div>
+</li>
+<li>
+
+<div id="2015AJ....149..158S">
+  
+    <span class="title">BOSS Ultracool Dwarfs. I. Colors and Magnetic Activity of M and L Dwarfs</span>
+    <span class="author">
+      
+        
+          
+            
+              <em>Schmidt, Sarah J.</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Hawley, Suzanne L.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                West, Andrew A.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Bochanski, John J.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Davenport, James R. A.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Ge, Jian,
+              
+            
+          
+        
+      
+        
+          
+		
+		and
+		
+            
+              
+                Schneider, Donald P.
+		
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>AJ</em>
+    
+    
+      2015
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a href="https://ui.adsabs.harvard.edu/abs/2015AJ....149..158S" target="_blank">ADS</a>]
+  
+  
+    [<a href="http://arxiv.org/abs/1410.0014" target="_blank">arXiv</a>]
+  
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>We present the colors and activity of ultracool (M7-L8) dwarfs from the Tenth Data Release of the Sloan Digital Sky Survey (SDSS). We combine previous samples of SDSS M and L dwarfs with new data obtained from the Baryon Oscillation Sky Survey (BOSS) to produce the BOSS Ultracool Dwarf (BUD) sample of 11820 M7-L8 dwarfs. By combining SDSS data with photometry from 2MASS and the Wide-field Infrared Sky Explorer (WISE) mission, we present ultracool dwarf colors from i-z to W2-W3 as a function of spectral type, and extend the SDSS-2MASS-WISE color locus to include ultracool dwarfs. The i-z, i-J, and z-J colors provide the best indication of spectral type for M7-L3 dwarfs. We also examine ultracool dwarf chromospheric activity through the presence and strength of Hα emission. The fraction of active dwarfs rises through the M spectral sequence until it reaches ̃90% at spectral type L0. The fraction of active dwarfs then declines to 50% at spectral type L5; no Hα emission is observed in the late-L dwarfs in the BUD sample. The fraction of active L0-L5 dwarfs is much higher than previously observed. The strength of activity declines with spectral type from M7 through L3, after which the data do not show a clear trend. Using one-dimensional chromosphere models, we explore the range of filling factors and chromospheric temperature structures that are consistent with Hα observations of M0-L7 dwarfs. M dwarf chromospheres have a similar, smoothly varying range of temperature and surface coverage, while L dwarf chromospheres are cooler and have smaller filling factors. </p>
+  </span>
+  
+</div>
+</li>
+<li>
+
+<div id="2014PASP..126.1081G">
+  
+    <span class="title">H&alpha; Emission From Active Equal-Mass, Wide M Dwarf Binaries</span>
+    <span class="author">
+      
+        
+          
+            
+              
+                Gunning, Heather C.,
+              
+            
+          
+        
+      
+        
+          
+            
+              <em>Schmidt, Sarah J.</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Davenport, James R. A.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Dhital, Saurav,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Hawley, Suzanne L.,
+              
+            
+          
+        
+      
+        
+          
+		
+		and
+		
+            
+              
+                West, Andrew A.
+		
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>PASP</em>
+    
+    
+      2014
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a href="https://ui.adsabs.harvard.edu/abs/2014PASP..126.1081G" target="_blank">ADS</a>]
+  
+  
+    [<a href="http://arxiv.org/abs/1410.1514" target="_blank">arXiv</a>]
+  
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>We identify a sample of near-equal mass wide binary M dwarf systems from the SLoWPoKES catalog of common proper-motion binaries and obtain follow-up observations of their chromospheric activity as measured by the Hα emission line. We present optical spectra for both components of 48 candidate M dwarf binaries, confirming their mid-M spectral types. Of those 48 coeval pairs, we find eight with Hα emission from both components, three with weak emission in one component and no emission in the other, and 37 with two inactive components. We find that of the eleven pairs with at least one active component, only three follow the net trend of decreasing activity strength LHα/Lbol with later spectral type. The difference in quiescent activity strength between the A and B components is larger than what would be expected based on the small differences in color (mass). For five binaries with two active components, we present 47 hours of time-resolved spectroscopy, observed on the ARC 3.5-m over twelve different nights. For four of the five pairs, the slightly redder (B) component exhibits a higher level of Hα emission during the majority of the observations and the redder objects are the only components to flare. The full range of Hα emission observed on these variable mid-M dwarfs is comparable to the scatter in Hα emission found in single-epoch surveys of mid-M dwarfs, indicating that variability could be a major factor in the spread of observed activity strengths. We also find that variability is independent of both activity strength and spectral type.</p>
+  </span>
+  
+</div>
+</li>
+<li>
+
+<div id="2007AJ....133.2258S">
+  
+    <span class="title">Activity and Kinematics of Ultracool Dwarfs, Including an Amazing Flare Observation</span>
+    <span class="author">
+      
+        
+          
+            
+              <em>Schmidt, Sarah J.</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Cruz, Kelle L.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Bongiorno, Bethany J.,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Liebert, James,
+              
+            
+          
+        
+      
+        
+          
+		
+		and
+		
+            
+              
+                Reid, I. Neill
+		
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>AJ</em>
+    
+    
+      2007
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a href="https://ui.adsabs.harvard.edu/abs/2007AJ....133.2258S" target="_blank">ADS</a>]
+  
+  
+    [<a href="http://arxiv.org/abs/astro-ph/0701055" target="_blank">arXiv</a>]
+  
+  
+    [<a class="abstract">Abstract</a>]
+  
+  
+  
+  
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>We present the activity and kinematics of a representative volume-limited (20 pc) sample of 152 late-M and L dwarfs (M7-L8) photometrically selected from the Two Micron All Sky Survey (2MASS). Using new proper-motion measurements and spectrophotometric distance estimates, we calculate tangential velocities. The sample has a mean tangential velocity of &lt;V<sub>tan</sub>&gt;=31.5 km s<sup>-1</sup>, a velocity dispersion of σ<sub>tan</sub>=20.7 km s<sup>-1</sup>, and a maximum tangential velocity of V<sub>tan</sub>=138.8 km s<sup>-1</sup>. These kinematic results are in excellent agreement with previous studies of ultracool dwarfs in the local solar neighborhood. Hα emission, an indicator of chromospheric activity, was detected in 63 of 81 late-M dwarfs and in 16 of 69 L dwarfs examined. We find a lack of correlation between activity strength, measured by log(F<sub>Hα</sub>/F<sub>bol</sub>), and V<sub>tan</sub>, although velocity distributions suggest that the active dwarfs in our sample are slightly younger than the inactive dwarfs. Consistent with previous studies of activity in ultracool dwarfs, we find that the fraction of Hα-emitting objects per spectral type peaks at spectral type M7 and declines through mid-L dwarfs. Activity strength is similarly correlated with spectral type for types later than M7. Eleven dwarfs out of 150 show evidence of variability, ranging from small fluctuations to large flare events. We estimate a flare cycle of  5% for late-M dwarfs and  2% for L dwarfs. Observations of strong, variable activity on the L1 dwarf 2MASS J10224821+5825453 and an amazing flare event on the M7 dwarf 2MASS J1028404-143843 are discussed. </p>
+  </span>
+  
+</div>
+</li></ol>
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2021 Sarah Jane Schmidt.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+        Last updated: January 2021.
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-147426691-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
