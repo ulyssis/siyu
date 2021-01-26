@@ -14,10 +14,10 @@ Columbus Prize Postdoctoral Fellow (2012-2015)
 
 ### Education
 [University of Washington](http://www.astro.washington.edu/)  
-Ph.D. in Astronomy (2012)  
-Master of Science in Astronomy (2008)  
+PhD in Astronomy (2012)  
+MS in Astronomy (2008)  
  
 [Barnard College](https://physics.barnard.edu/)  
-BA with honors in Physics and Astronomy (2006)
+BA in Physics and Astronomy (2006)
 
 

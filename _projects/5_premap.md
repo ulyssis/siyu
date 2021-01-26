@@ -7,7 +7,7 @@ img:
 
 As a graduate student at the University of Washington (2006-2012), I worked as part of the [Pre-Major in Astronomy Program (Pre-MAP)](http://depts.washington.edu/premap/) staff. The goal of Pre-MAP is to increase the number of under-represented and marginalized students who choose to major in astronomy or other STEM fields. The core of Pre-MAP is a course aimed at first-year and transfer students that teaches them research skills then pairs them with mentors to complete a small research project. Pre-MAP also includes cohort building through events and field trips and continued mentoring and support through the remainer of the student's undergraduate experience. 
 
-I served as the intstructor for the research course in 2009, and as part of that expereince developed curriculum to teach basic coding and research skills. I also served as academic mentor to the next cohort of students, organized field trips, and participated in writing grants to support the program. 
+I served as the instructor for the research course in 2009, and as part of that expereince developed curriculum to teach basic coding and research skills. I also served as academic mentor to the next cohort of students, organized field trips, and participated in writing grants to support the program. 
 
 In 2013, I worked with a team to perform a quantitative evaluation of Pre-MAP, focused on the academic performance of the studends who had participated in the program. We had already performed a qualitative evaluation, finding that students typically had a positive experience with the program and believed it to be helpful. In our evaluation, we focused on the GPA and graduation outcomes of our students compared to those of students who did not participate in the program. 
 
