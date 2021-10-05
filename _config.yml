@@ -132,7 +132,10 @@ github: [metadata]
 scholar:
 
   last_name: Schmidt
+<<<<<<< HEAD
   first_name: [Sarah, J.]
+=======
+>>>>>>> d6ae1be61a20736d1921d53f46168bc316b3a4ae
 
   style: apa
   locale: en

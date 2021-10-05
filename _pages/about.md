@@ -1,9 +1,6 @@
 ---
 layout: about
-<<<<<<< HEAD
 title: about
-=======
->>>>>>> d6ae1be (smash web version with raw version)
 permalink: /
 title: <strong>Sarah Jane Schmidt </strong>
 description: Ex-astronomer looking to create data-driven solutions to problems on Earth.
