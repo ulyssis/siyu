@@ -14,6 +14,16 @@ baseurl: # the subpath of your site, e.g. /blog/
 last_updated: January 2021 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+
+# Dimensions
+max_width: 800px
+
+# -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: sjschmidt # your GitHub user name
@@ -44,9 +54,9 @@ blog_name: blog
 blog_description: perhaps updated occassionally
 
 # Pagination
-paginate: 4
+# paginate: 4
 permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+# paginate_path: /blog/page:num/
 
 # text:
 pagination:
@@ -132,10 +142,7 @@ github: [metadata]
 scholar:
 
   last_name: Schmidt
-<<<<<<< HEAD
   first_name: [Sarah, J.]
-=======
->>>>>>> d6ae1be61a20736d1921d53f46168bc316b3a4ae
 
   style: apa
   locale: en
@@ -157,13 +164,6 @@ scholar:
 
   query: "@*"
 
-# -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
-
-jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional Features
