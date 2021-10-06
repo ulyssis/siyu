@@ -3,6 +3,8 @@ layout: page
 title: discussion groups
 description: facilitating E&I eduction
 img: 
+importance: 2
+category: inclusion
 ---
 
 Education is an important component of building a more inclusive astronomical community. To educate scientiests about diversity, equity, and includion, I facilitate department-wide discussion groups that work on these issues, including one at [AIP](https://www.aip.de/en/career/gender-equality/gleichstellung-journal-club?set_language=en) and one at my former institution, [OSU](http://www.astronomy.ohio-state.edu/~schmidt/DiversityJournalClub.html).

@@ -3,6 +3,8 @@ layout: page
 title: cool star kinematics
 description: estimating ages from velocities
 img:
+importance: 9
+category: astronomy
 ---
 
 Each star orbits the center of our Galaxy, and its speed and position depend on its history of interactions with dust and other stars in the Galactic plane. As stars age, they have more and more kinematic interations, which overall increase the total stellar velocity and result in older stars spending more time further from the plane of the Galaxy. Because the changes in orbital motion are a stochastic process, kinematics is only a reliable age indicator when considering populations or groups of stars. 

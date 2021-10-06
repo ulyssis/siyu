@@ -2,7 +2,9 @@
 layout: page
 title: Pre-MAP
 description: UW's undergraduate research program
-img: 
+img:
+importance: 4
+category: inclusion 
 ---
 
 As a graduate student at the University of Washington (2006-2012), I worked as part of the [Pre-Major in Astronomy Program (Pre-MAP)](http://depts.washington.edu/premap/) staff. The goal of Pre-MAP is to increase the number of under-represented and marginalized students who choose to major in astronomy or other STEM fields. The core of Pre-MAP is a course aimed at first-year and transfer students that teaches them research skills then pairs them with mentors to complete a small research project. Pre-MAP also includes cohort building through events and field trips and continued mentoring and support through the remainer of the student's undergraduate experience. 

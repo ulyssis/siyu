@@ -3,6 +3,8 @@ layout: page
 title: gender questions
 description: who asks questions at conferences?
 img: /assets/img/frac_v_N.png
+category: inclusion
+importance: 10
 ---
 
 Doesn't it seem that the questions after a talk are mostly asked by men? In 2014, right before the 223rd meeting of the American Astronomical Society (AAS), my collaborator [Jim Davenport](http://jradavenport.github.io/) created a quick web form so conference attendees could track the gender of speakers and those asking questions. Over the next five years, Jim, [Stephanie Douglas](http://user.astro.columbia.edu/~sdouglas/), myself, and many others worked to disseminate the form, track the gender of those asking questions, and analyze the data. I led the analysis on two papers concerning this project, and a few more were led by others. 

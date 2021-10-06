@@ -3,6 +3,8 @@ layout: page
 title: APOGEE KM dwarfs
 description: measuring metallicities
 img: /assets/img/rzww_web.jpg
+importance: 5
+category: astronomy
 ---
 
 The metallicities of the smallest stars are particularly difficult to determine due to their faint magnitudes and complicated spectra. These cool dwarfs are some of the most common stars in the galaxy, however, so their abundances are particularly useful both for detailed Galactic chemical evolution models and for understanding the exoplanets orbiting small stars. 

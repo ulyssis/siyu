@@ -3,6 +3,8 @@ layout: page
 title: H&alpha; emission lines
 description: tracing quiescent chromospheres
 img: 
+importance: 8
+category: astronomy
 ---
 
 The H&alpha; emission line is generated in a magnetically heated upper layer of a star's atmosphere called its chromosphere. The presence of H&alpha; indicates that there is a magnetic field at the surface of the star, and it is often used as a magnetic activity indicator because it is the most easily observed tracer of magnetism in the coolest stars and warmest brown dwarfs.

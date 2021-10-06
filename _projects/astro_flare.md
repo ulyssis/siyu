@@ -3,6 +3,8 @@ layout: page
 title: flaring atmospheres
 description: spectroscopic characterization
 img: /assets/img/Nasa_EV_Lacertae_250408.jpg
+importance: 3
+category: astronomy
 ---
 
 Flares are complicated events that are triggered by the reconnection of magnetic field lines. The dramatic reconnection event accelerates particles into the star's atmosphere, heating many different layers that emit across the electromagnetic spectrum. Time-resolved spectroscopy is a unique tool for understanding the evolution of heating and cooling during stellar flares. Each emission line or continuum enhancement traces a different layer of the atmosphere, so we can estimate the changing temperatures and densities as the flare evolves. 

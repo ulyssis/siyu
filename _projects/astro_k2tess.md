@@ -3,6 +3,8 @@ layout: page
 title: TESS & K2
 description: small star variability and flares
 img: /assets/img/tess.jpg
+importance: 1
+category: astronomy
 ---
 
 The [NASA Kepler](https://www.nasa.gov/mission_pages/kepler/main/index.html) mission, and its successor, [TESS](https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite), aim to find exoplanets that pass in front of their host stars by detecting the decrease in starlight when a small part of the star is blocked by the exoplanet. In the process, they obtain time series data that can reveal stellar flares - sudden outbursts of energy that occur when the surface magnetic field reconnects. 

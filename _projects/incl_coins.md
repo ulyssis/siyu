@@ -3,6 +3,8 @@ layout: page
 title: SDSS COINS
 description: towards more inclusive collaborations
 img: /assets/img/sdss.jpg
+category: inclusion
+importance: 8
 ---
 
 The [Sloan Digital Sky Survey (SDSS)](https://www.sdss.org/) is a large collaborative astronomical survey, run by representatives from dozens of institutions and used by thousands of astronomers throughout the world. In 2015, the leadership of SDSS called for the creation of a [Committee On Inclusion iN SDSS (COINS)](https://www.sdss.org/collaboration/coins/). I served on COINS for three years, including two years as co-chair.

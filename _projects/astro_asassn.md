@@ -3,6 +3,8 @@ layout: page
 title: flares with ASAS-SN
 description: exploring sparse cadence data
 img: /assets/img/asassnL.png
+category: astronomy
+importance: 7
 ---
 
 The [All Sky Automated Survey for Supernovae (ASAS-AN)](http://www.astronomy.ohio-state.edu/asassn/index.shtml) scans the sky once a night, looking for supernovae. The survey has also caught some of the largest stellar flares. ASAS-SN is particularly sensitive to dramatic transients, and so easily observes some of the largest flares on the smallest stars. These are particularly strong because of the contrast effect - the stellar atmosphere is particularly faint and cool at the wavelengths where the flare emission is hot and bright. 
