@@ -6,7 +6,7 @@ When I built this page I had no idea what jekyll, ruby, and bundles are, and I s
  * Intros to how to [forking](https://help.github.com/en/articles/fork-a-repo) and [clone](https://help.github.com/en/articles/cloning-a-repository) a repo
  * Pages for [Xcode](https://developer.apple.com/xcode/), [brew](https://brew.sh/), [ruby](https://www.ruby-lang.org/en/), and [bundler](https://bundler.io/) (the guides mention them in more detail)
  * [Guide to making static sites with jekyll](https://www.taniarascia.com/make-a-static-website-with-jekyll/)
- * [Tutorial on how to get the right version of ruby working on mac](https://www.engineyard.com/blog/how-to-install-ruby-on-a-mac-with-chruby-rbenv-or-rvm)]
+ * [Tutorial on how to get the right version of ruby working on mac](https://www.engineyard.com/blog/how-to-install-ruby-on-a-mac-with-chruby-rbenv-or-rvm)
  * [How to get a google domain working with github](https://dev.to/trentyang/how-to-setup-google-domain-for-github-pages-1p58) 
 
 
