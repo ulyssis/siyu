@@ -30,5 +30,6 @@ When comparing student GPA and quarters to graduate within groups of students wh
 The qualitative evaluation taught us that to make a difference in the graduation outcomes of students, we needed to provide and/or assist students in finding more academic mentoring and resources instead of focusing only on research. As we examined these results, we instituted an official academic mentor as part of our program. 
 
 #### Related Publications
-
+<div class="publications">
 {% bibliography -f inclusion --query @*[group=premap] %}
+</div>

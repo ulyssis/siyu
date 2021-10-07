@@ -1,7 +1,10 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Sarah Jane Schmidt
+title: blank
+first_name: sarah
+middle_name: jane
+last_name: schmidt
 email: sarahjaneschmidt@gmail.com
 description: > # this means to ignore newlines until "url:"
   Professional site of Sarah Jane Schmidt.
@@ -11,7 +14,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: January 2021 # leave blank if you don't want to display last updated
+last_updated: True # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -54,14 +57,8 @@ blog_name: blog
 blog_description: perhaps updated occassionally
 
 # Pagination
-# paginate: 4
-permalink: /blog/:year/:title/
-# paginate_path: /blog/page:num/
-
-# text:
 pagination:
-  newer: 'Newer'
-  older: 'Older'
+  enabled: true
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname

@@ -36,5 +36,6 @@ If you're interested in being part of a new phase of the questions project (espe
 
 
 #### Related Publications
-
+<div class="publications">
 {% bibliography -f inclusion --query @*[group=genderq] %}
+</div>

@@ -39,5 +39,6 @@ I've also been involved in projects led by Adam Kowalski centered on spectroscop
 
 
 #### Related Publications
-
-{% bibliography -f papers --query @*[group=flareprop] %}
+<div class="publications">
+{% bibliography -f papers --query @*[group=flareprop]* %}
+</div>

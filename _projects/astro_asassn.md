@@ -26,5 +26,6 @@ The energies for the first two flares characterized were consistent with dramati
 Work with ASAS-SN flares continues! I am part of the team working with Romy Rodriguz, an Ohio State Graduate Student, to look at flares on a sample of nearby M dwarfs. As the ASAS-SN survey continues to expand, we expect many more dramatic flares and may be able to calculate the rate of the rarest, largest stellar flares. Additionally, the techniques developed to analyze sparse flares in this bright transient survey can be adapted to understand the flares found in future large sparse cadence surveys, like ZTF and LSST. 
 
 #### Related Publications
-
+<div class="publications">
 {% bibliography -f papers --query @*[group=asassn] %}
+</div>

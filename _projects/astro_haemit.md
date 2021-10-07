@@ -44,5 +44,6 @@ Additional spectroscopic monitoring is the key to assigning stars a more fundame
 
 
 #### Related Publications
-
+<div class="publications">
 {% bibliography -f papers --query @*[group=halpha] %}
+</div>

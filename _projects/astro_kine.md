@@ -24,5 +24,6 @@ I am currently working with my BOSS Ultracool Dwarfs sample of 13000 late-M and 
 
 
 #### Related Publications
-
+<div class="publications">
 {% bibliography -f papers --query @*[group=kine] %}
+</div>

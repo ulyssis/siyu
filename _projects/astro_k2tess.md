@@ -42,5 +42,6 @@ The TESS mission has been underway for over a year, delivering month-long light-
 Analysis of the data is ongoing, but initial data suggests that the overall flare rate for ultracool dwarfs strongly depends on stellar mass, but may be higher than was found by the initial K2 work. 
 
 #### Related Publications
-
+<div class="publications">
 {% bibliography -f papers --query @*[group=k2tess] %}
+</div>

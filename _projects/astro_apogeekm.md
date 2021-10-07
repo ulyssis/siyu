@@ -23,5 +23,6 @@ WISE W1-W2 color as a function of SDSS r-z color shown with colors indicating ef
 Since the initial work, the APOGEE data set has doubled and Gaia has released parallaxes for the majority of these nearby stars, and I am working with Jennifer Johnson and Victoria DiTomasso to update and expand the APOGEE KM dwarf project and apply the metallicity indicators to a sample of a million M dwarfs in the Solar neighborhood. Expect new results soon!
 
 #### Related Publications
-
-{% bibliography -f papers --query @*[group=apogee] %}
+<div class="publications">
+{% bibliography -f papers --query @*[group=apogee]* %}
+</div>

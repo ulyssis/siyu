@@ -14,5 +14,6 @@ During my time on COINS, we worked with collaboration membership and leadership 
 Another component of SDSS inclusion is the [Faculty and Student Teams (FAST)](https://www.sdss.org/education/faculty-and-student-team-fast-initiative/) program. The program incorporates teams consisting of a faculty member and their students who are at Minority Serving Institutions into the collaboration, including data access and pairing with experienced collaboration mentors. I served as mentors to two FAST teams while I worked with COINS. 
 
 #### Related Abstracts
-
+<div class="publications">
 {% bibliography -f inclusion --query @*[group=coins] %}
+</div>

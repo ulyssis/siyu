@@ -2,6 +2,7 @@
 layout: page
 permalink: /cv/
 title: cv
+nav: true
 description: <a href=https://drive.google.com/file/d/1QdaJd5Sc5KKOgEikARXPrOZ_zqj7zAz1/view?usp=sharing">Data Science</a> (updated Jan 2021) <br> <a href="https://github.com/sjschmidt/CV/blob/master/sjs_cv_long.pdf">Academic</a> (updated Oct 2019) 
 ---
 
