@@ -44,7 +44,7 @@ google_analytics: UA-147426691-1 # put your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: blog
-blog_description: perhaps updated occasionally
+blog_description: Infrequently updated thoughts.
 
 # Pagination
 pagination:
