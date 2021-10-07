@@ -1,7 +1,10 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Sarah Jane Schmidt
+title: blank
+first_name: sarah
+middle_name: jane
+last_name: schmidt
 email: sarahjaneschmidt@gmail.com
 description: > # this means to ignore newlines until "url:"
   Professional site of Sarah Jane Schmidt.
@@ -11,7 +14,17 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: January 2021 # leave blank if you don't want to display last updated
+last_updated: True # leave blank if you don't want to display last updated
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+
+# Dimensions
+max_width: 800px
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -19,21 +32,11 @@ last_updated: January 2021 # leave blank if you don't want to display last updat
 github_username: sjschmidt # your GitHub user name
 twitter_username: sjs917 # your Twitter handle
 linkedin_username: sarah-jane-schmidt-2ba01975 # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
 orcid_id: 0000-0002-7224-7702 # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+# mode ids are available, check the template
 
 contact_note: >
-  Get in touch! It's fastest to find me on twitter or send me an email. 
+  Get in touch! These days, I'm mostly on twitter.
 
 google_analytics: UA-147426691-1 # put your google-analytics code
 
@@ -41,17 +44,11 @@ google_analytics: UA-147426691-1 # put your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: blog
-blog_description: perhaps updated occassionally
+blog_description: Infrequently updated thoughts.
 
 # Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-# text:
 pagination:
-  newer: 'Newer'
-  older: 'Older'
+  enabled: true
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
@@ -73,9 +70,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  iprojects:
-    output: true
-    permalink: /iprojects/:path/
 
 news_limit: 5
 
@@ -132,10 +126,7 @@ github: [metadata]
 scholar:
 
   last_name: Schmidt
-<<<<<<< HEAD
   first_name: [Sarah, J.]
-=======
->>>>>>> d6ae1be61a20736d1921d53f46168bc316b3a4ae
 
   style: apa
   locale: en
@@ -157,13 +148,6 @@ scholar:
 
   query: "@*"
 
-# -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
-
-jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional Features
@@ -171,14 +155,14 @@ jekyll-diagrams:
 
 enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             true   # enables automatic project cards arangement
+enable_mansory:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
+enable_project_categories:  true  # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 

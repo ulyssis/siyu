@@ -2,9 +2,8 @@
 layout: about
 title: about
 permalink: /
-title: <strong>Sarah Jane Schmidt </strong>
-description: Ex-astronomer looking to create data-driven solutions to problems on Earth.
-
+title: <strong>sarah jane schmidt </strong>
+description: Ex-astronomer creating data-driven solutions to problems on Earth.
 profile:
   align: right
   image: prof_pic.jpg
@@ -14,11 +13,13 @@ news: false # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-I spent 15 years in academia researching the smallest stars and why their magnetic fields are so strong. I extracted, analyzed, and visualized multi-dimensional and time-series data to answer my research questions then communicated my results in seminars and scientific publications. I also worked towards inclusion in astronomy. 
+I spent 15 years in academia researching the smallest stars and why their magnetic fields are so strong. I extracted, analyzed, and visualized multi-dimensional and time-series data to answer my research questions, then communicated my results in seminars and scientific publications. I also mentored a handful of students through their first large, self-led projects and loved helping these brilliant students grow into competent, independent researchers.
 
-Now, I'm ready to take my data-focused skills and apply them to new challenges. To learn more about me, please take a look at my CV, publications, or the project summaries for some of my main projects.  
+Alongside my research, I also worked on projects related to diversity and inclusion in Astronomy. Often my goal was to do the work of bringing the basic ideas of equity and social justice within our field to astronomers who had not yet encountered these concepts. As my time in astronomy grew to a close, I moved on to feminist activism in Berlin rather than focusing on my field.
 
-I also like ice cream!
+Currently, I'm working as a data scientist at a startup here in Berlin. My move from science to tech has been a lot of work, but it's also exciting to learn new skills and processes. Like me, this website is in a transition, including some academic-focused material but slowly shifting to focus on tech. 
+
+I also like ice cream.
 
 
 

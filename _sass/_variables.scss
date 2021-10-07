@@ -1,6 +1,41 @@
 
 /******************************************************************************/
 
+// colors
+
+/*******************************************************************************
+ * Variables used throughout the theme.
+ * To adjust anything, simply edit the variables below and rebuild the theme.
+ ******************************************************************************/
+
+
+
+// Colors
+$red-color:           #FF3636 !default;
+$red-color-dark:      #B71C1C !default;
+$orange-color:        #F29105 !default;
+$blue-color:          #0076df !default;
+$blue-color-dark:     #00369f !default;
+$cyan-color:          #2698BA !default;
+$light-cyan-color:    lighten($cyan-color, 25%);
+$green-color:         #00ab37 !default;
+$green-color-lime:    #B7D12A !default;
+$green-color-dark:    #009f06 !default;
+$green-color-light:   #ddffdd !default;
+$green-color-bright:  #11D68B !default;
+$purple-color:        #B509AC !default;
+$light-purple-color:  lighten($purple-color, 25%);
+$pink-color:          #f92080 !default;
+$pink-color-light:    #ffdddd !default;
+$yellow-color:        #efcc00 !default;
+
+$grey-color:          #828282 !default;
+$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-dark:     darken($grey-color, 25%);
+
+$white-color: #ffffff !default;
+$black-color: #000000 !default;
+
 // Typography
 $base-font-size: 16px !default;
 $small-font-size:  0.875rem !default;
@@ -150,6 +185,30 @@ $footer-bg-color: $grey-color-dark;
 $footer-font-weight: 300;
 $footer-font-size: .75rem;
 
+
+// Breakpoints
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
+
+// Headers
+$header-heading-color: #fff !default;
+$header-bg-color: #159957 !default;
+$header-bg-color-secondary: #155799 !default;
+
+// Text
+$section-headings-color: #159957 !default;
+$body-text-color: #606c71 !default;
+$body-link-color: #1e6bb8 !default;
+$blockquote-text-color: #819198 !default;
+
+// Code
+$code-bg-color: #f3f6fa !default;
+$code-text-color: #567482 !default;
+
+// Borders
+$border-color: #dce6f0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;
 
 /******************************************************************************/
 
