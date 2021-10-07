@@ -32,21 +32,11 @@ max_width: 800px
 github_username: sjschmidt # your GitHub user name
 twitter_username: sjs917 # your Twitter handle
 linkedin_username: sarah-jane-schmidt-2ba01975 # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
 orcid_id: 0000-0002-7224-7702 # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+# mode ids are available, check the template
 
 contact_note: >
-  Get in touch! It's fastest to find me on twitter or send me an email. 
+  Get in touch! These days, I'm mostly on twitter.
 
 google_analytics: UA-147426691-1 # put your google-analytics code
 
@@ -54,7 +44,7 @@ google_analytics: UA-147426691-1 # put your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: blog
-blog_description: perhaps updated occassionally
+blog_description: perhaps updated occasionally
 
 # Pagination
 pagination:
@@ -165,7 +155,7 @@ scholar:
 
 enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_mansory:             true   # enables automatic project cards arangement
+enable_mansory:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts

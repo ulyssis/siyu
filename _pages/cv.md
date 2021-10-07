@@ -3,10 +3,13 @@ layout: page
 permalink: /cv/
 title: cv
 nav: true
-description: <a href=https://drive.google.com/file/d/1QdaJd5Sc5KKOgEikARXPrOZ_zqj7zAz1/view?usp=sharing">Data Science</a> (updated Jan 2021) <br> <a href="https://github.com/sjschmidt/CV/blob/master/sjs_cv_long.pdf">Academic</a> (updated Oct 2019) 
+description: <a href="/assets/pdf/sjs_cv_datascience_2021.pdf">Data Science</a> (updated May 2021) <br> <a href="/assets/pdf/sjs_cv_academic_2019.pdf">Academic</a> (updated Oct 2019) 
 ---
 
 ### Employment
+[everphone](https://www.everphone.com/en/)  
+Data Scientist (2021-present)
+
 [Leibniz Institute for Astrophysics - Potsdam](https://www.aip.de)  
 Schwarzschild Prize Postdoctoral Fellow (2015-2020)  
 

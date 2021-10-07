@@ -13,9 +13,9 @@ news: false # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-I spent 15 years in academia researching the smallest stars and why their magnetic fields are so strong. I extracted, analyzed, and visualized multi-dimensional and time-series data to answer my research questions then communicated my results in seminars and scientific publications. I also worked towards inclusion in astronomy. 
+I spent 15 years in academia researching the smallest stars and why their magnetic fields are so strong. I extracted, analyzed, and visualized multi-dimensional and time-series data to answer my research questions, then communicated my results in seminars and scientific publications. I also mentored and supervised a handful of brilliant students through their masters degrees.
 
-Now, I'm ready to take my data-focused skills and apply them to new challenges. To learn more about me, please take a look at my CV, publications, or the project summaries for some of my main projects.  
+Currently, I'm working as a data scientist at a startup here in Berlin. My move from science to tech has been a lot of work, but it's also exciting to learn new skills and processes. 
 
 I also like ice cream.
 

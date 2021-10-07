@@ -28,14 +28,14 @@ While flares are common on cool, red dwarfs, they are often difficult to observe
     <img class="col one left" src="{{ site.baseurl }}/assets/img/lineheights.png" alt="" title="height of formation of emission lines"/>
 </div>
 <div class="col three caption" style="float: right">
-On the left, the evolution of emisison lines detected throughout the optical and infrared spectrum. The lines that decline quickly cool the plasma efficiently, while those that continue to emit for longer trace regions of the flaring atmosphere that stay hotter longer. On the right, the layers of formation for emission lines in optical and infrared light. From <a href='https://ui.adsabs.harvard.edu/abs/2012ApJ...745...14S'>Schmidt et al. (2012)</a>.
+On the left, the evolution of emission lines detected throughout the optical and infrared spectrum. The lines that decline quickly cool the plasma efficiently, while those that continue to emit for longer trace regions of the flaring atmosphere that stay hotter longer. On the right, the layers of formation for emission lines in optical and infrared light. From <a href='https://ui.adsabs.harvard.edu/abs/2012ApJ...745...14S'>Schmidt et al. (2012)</a>.
 </div>
 
-With nearly 50 hours of monitoring, I found that infrared lines are only found in strong emisison during the most powerful flares. With a sinmple 1D radiative transfer model, I also found that these infrared emission lines traced only the hottest, most diffuse portion of the flaring atmopshere. Infrared lines are not an efficient method for detecting flares, but they do provide a window into a less well-observed portion of the flaring atmopshere. 
+With nearly 50 hours of monitoring, I found that infrared lines are only found in strong emission during the most powerful flares. With a simple 1D radiative transfer model, I also found that these infrared emission lines traced only the hottest, most diffuse portion of the flaring atmosphere. Infrared lines are not an efficient method for detecting flares, but they do provide a window into a less well-observed portion of the flaring atmosphere. 
 
-### balmer lines and the balmer jump
+### Balmer lines and the Balmer jump
 
-I've also been involved in projects led by Adam Kowalski centered on spectroscopic flare monitoring in blue and UV spectra focused on examining the balmer lines and the balmer jump compared to thermal continuum. These two components are typically both present in flares, but more impulsive flares tend to have stronger atomic/balmer emission, while more gentle flares have more thermal continuum. As more data is obtained and models become more sophisticated, we can examine the range of heating mechanisms that generate flare emission. 
+I've also been involved in projects led by Adam Kowalski centered on spectroscopic flare monitoring in blue and UV spectra focused on examining the Balmer lines and the Balmer jump compared to thermal continuum. These two components are typically both present in flares, but more impulsive flares tend to have stronger atomic/balmer emission, while more gentle flares have more thermal continuum. As more data is obtained and models become more sophisticated, we can examine the range of heating mechanisms that generate flare emission. 
 
 
 #### Related Publications
