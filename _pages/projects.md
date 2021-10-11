@@ -6,6 +6,7 @@ description: As an astronomer, I worked on projects that focused on small stars 
 nav: true
 display_categories: [astronomy, inclusion]
 horizontal: false
+social: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}

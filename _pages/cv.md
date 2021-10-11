@@ -3,7 +3,8 @@ layout: page
 permalink: /cv/
 title: cv
 nav: true
-description: The story of my professional life in multiple formats.
+description: The story of my professional life.
+social: true
 ---
 <a href="/assets/pdf/sjs_cv_datascience_2021.pdf">Data Science</a> (pdf updated May 2021)   
 <a href="/assets/pdf/sjs_cv_academic_2019.pdf">Academic</a> (pdf updated Oct 2019) 
