@@ -3,6 +3,7 @@ layout: post
 title:  leaving academia
 date:   2020-02-27
 description: how do you decide a good thing has come to an end?
+social: true 
 ---
 
 I've been through a couple serious breakups in the past few years, and I remember there was a period of time before the actual break where I knew I was unhappy, but was trying to figure out if there was a way to fix it. Then there was this moment of clarity where I realized that I'd been denying that a good thing had come to an end. 

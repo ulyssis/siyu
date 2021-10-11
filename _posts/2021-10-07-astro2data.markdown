@@ -3,6 +3,7 @@ layout: post
 title:  from astronomy to data science
 date:   2021-10-07
 description: notes from my talk at the german astronomical society meeting
+social: true 
 ---
 
 I gave a talk recently, during the 2021 meeting of the German Astronomical Society in the ["Healthy Careers in Astronomy (and Beyond)"](https://ag2021.astronomische-gesellschaft.de/view_splinter.php?session=Careers) session. I called my talk ["From the stars back down to Earth: getting a job as a data scientist"](https://ag2021.astronomische-gesellschaft.de/view_abstract.php?id=157)" and attempted to give a fifteen minute overview of the process.
