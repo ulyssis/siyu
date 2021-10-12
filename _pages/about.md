@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-title: <strong>sarah jane schmidt </strong>
-description: Ex-astronomer creating data-driven solutions to problems on Earth.
+title: <strong>siyu tang</strong>
+description: 
 profile:
   align: right
   image: prof_pic.jpg
