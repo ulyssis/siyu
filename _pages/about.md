@@ -6,7 +6,7 @@ title: <strong>siyu tang</strong>
 description: 
 profile:
   align: right
-  ![image](/assets/img/prof_pic.jpg)
+  image: /assets/img/prof_pic.jpg
   address: 
 
 news: false # includes a list of news items
