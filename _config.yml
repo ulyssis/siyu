@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 title: blank
-first_name: sarah
-middle_name: jane
-last_name: schmidt
-email: sarahjaneschmidt@gmail.com
+first_name: siyu
+middle_name: 
+last_name: tang
+email: siyutangld@gmail.com
 description: > # this means to ignore newlines until "url:"
-  Professional site of Sarah Jane Schmidt.
+  Professional site of Siyu Tang
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url: https://sjschmidt.github.io # the base hostname & protocol for your site
+url: https://ulyssis.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: True # leave blank if you don't want to display last updated
 
@@ -30,7 +30,7 @@ max_width: 800px
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: sjschmidt # your GitHub user name
-twitter_username: sjs917 # your Twitter handle
+twitter_username: siyutang3 # your Twitter handle
 linkedin_username: sarah-jane-schmidt-2ba01975 # your LinkedIn user name
 orcid_id: 0000-0002-7224-7702 # your ORCID ID
 # mode ids are available, check the template
